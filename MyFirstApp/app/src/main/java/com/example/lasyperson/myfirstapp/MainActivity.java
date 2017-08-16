@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+//Receives user input from the textbox and sends it to the next activity.
     public void sendMessage(View view) {
         Log.d("myTAG", "asdasdasd");
         Intent intent = new Intent(this, DisplayMessageActivity.class);
